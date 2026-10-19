@@ -3,17 +3,17 @@
 ## Исходный фрагмент
 
 ```asm
-    movl $0, -4(%rbp)      # sum = 0
-    movl $1, -8(%rbp)      # i = 1
-    jmp .L2                # перейти к проверке условия
-.L3:                       # тело цикла
-    movl -8(%rbp), %eax    # eax = i
-    addl %eax, -4(%rbp)    # sum += eax
-    addl $1, -8(%rbp)      # i += 1
-.L2:                       # проверка условия
-    cmpl $10, -8(%rbp)     # сравнить i с 10
-    jle .L3                # если i <= 10 — повторить тело
-    movl -4(%rbp), %eax    # eax = sum (возвращаемое значение)
+    movl $0, -4(%rbp)
+    movl $1, -8(%rbp)
+    jmp .L2
+.L3:
+    movl -8(%rbp), %eax
+    addl %eax, -4(%rbp)
+    addl $1, -8(%rbp)
+.L2:
+    cmpl $10, -8(%rbp)
+    jle .L3
+    movl -4(%rbp), %eax
 ```
 
 ## Роли ячеек памяти и регистров
@@ -46,7 +46,7 @@ int sum_1_to_10(void)
     for (int i = 1; i <= 10; i++) {
         sum += i;
     }
-    return sum;   /* 55 */
+    return sum;
 }
 ```
 
@@ -59,5 +59,5 @@ def sum_1_to_10():
     while i <= 10:
         total += i
         i += 1
-    return total  # 55
+    return total
 ```

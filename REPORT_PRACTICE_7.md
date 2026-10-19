@@ -43,10 +43,10 @@
 ```c
 int sum_1_to_10(void)
 {
-    int sum = 0;                    /* movl $0, -4(%rbp) */
-    for (int i = 1; i <= 10; i++)   /* movl $1, -8(%rbp); cmpl $10; jle */
-        sum += i;                   /* addl %eax, -4(%rbp) */
-    return sum;                     /* movl -4(%rbp), %eax */
+    int sum = 0;
+    for (int i = 1; i <= 10; i++)
+        sum += i;
+    return sum;
 }
 ```
 
@@ -57,7 +57,7 @@ def sum_1_to_10():
     while i <= 10:
         total += i
         i += 1
-    return total  # 55
+    return total
 ```
 
 ### 2.2. Краткое пояснение логики работы ассемблерного фрагмента
