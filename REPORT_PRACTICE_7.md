@@ -132,4 +132,6 @@ https://github.com/tenmich/lab-onboarding-Viktorov/pull/3
 
 ### 4.3. Скриншот зеленого статуса проверки (Checks) в Pull Request
 
-![Linter Check passed](docs/checks_passed.png)
+![Linter Check — Success](docs/checks_passed.jpg)
+
+![Вкладка Checks в Pull Request](docs/pr_checks_tab.jpg)
