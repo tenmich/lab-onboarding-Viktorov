@@ -1,0 +1,54 @@
+==========================================
+        ДИАГНОСТИКА КОМПЬЮТЕРА
+==========================================
+Дата проверки: 03.11.2026 16:15:03
+
+[Операционная система]
+  Название: Майкрософт Windows 11 Домашняя для одного языка
+  Версия:   10.0.26200
+------------------------------------------
+[Процессор]
+  AMD Ryzen 5 3500U with Radeon Vega Mobile Gfx
+------------------------------------------
+[Оперативная память]
+  Всего памяти:    6 ГБ
+  Свободно памяти: 0 ГБ
+------------------------------------------
+[Диск C]
+  Размер диска: 79 ГБ
+  Свободно:     2 ГБ
+------------------------------------------
+[Установленные программы]
+  Android Studio
+  CLion 2026.1.2
+  Git
+  Notepad++ (64-bit x64)
+  pgAdmin 4 version 9.18
+  PostgreSQL 18 
+  WinRAR 7.22 (64-разрядная)
+  Microsoft Visual C++ 2013 x64 Additional Runtime - 12.0.40664
+  Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219
+  Microsoft Windows Application Compatibility Fix Database
+  Happ - Proxy Utility 2.16.2(546)
+  Microsoft Visual C++ 2022 X64 Minimum Runtime - 14.44.35211
+  GitHub CLI
+  Microsoft Visual C++ 2013 x64 Minimum Runtime - 12.0.40664
+  Bonjour
+  Apple Mobile Device Support
+  Microsoft Visual C++ 2022 X64 Additional Runtime - 14.44.35211
+  Node.js
+  iot_manager version 0.1.8
+  PowerShell 7-x64
+  Microsoft Build of OpenJDK  21.0.12.1+1 (x64)
+  iTunes
+  Copilot
+  Microsoft Edge
+  Среда выполнения Microsoft Edge WebView2 Runtime
+  Microsoft Visual C++ 2013 Redistributable (x64) - 12.0.40664
+  Microsoft Visual C++ 2015-2022 Redistributable (x86) - 14.44.35211
+  PowerShell 7.6.6.0-x64
+  Microsoft Visual C++ 2022 X86 Minimum Runtime - 14.44.35211
+  Apple Software Update
+  Microsoft Visual C++ 2022 X86 Additional Runtime - 14.44.35211
+  Microsoft Visual C++ 2015-2022 Redistributable (x64) - 14.44.35211
+==========================================
