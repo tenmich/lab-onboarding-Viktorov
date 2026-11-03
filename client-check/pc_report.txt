@@ -1,7 +1,8 @@
 ==========================================
-        ДИАГНОСТИКА КОМПЬЮТЕРА
+      АУДИТ КЛИЕНТСКОГО КОМПЬЮТЕРА
 ==========================================
-Дата проверки: 03.11.2026 16:15:03
+Отчёт сформирован: 03.11.2026 16:21:06
+Компьютер: TENMI, пользователь: tenmi
 
 [Операционная система]
   Название: Майкрософт Windows 11 Домашняя для одного языка
@@ -11,44 +12,88 @@
   AMD Ryzen 5 3500U with Radeon Vega Mobile Gfx
 ------------------------------------------
 [Оперативная память]
-  Всего памяти:    6 ГБ
-  Свободно памяти: 0 ГБ
+  Всего памяти:    6,9 ГБ
+  Свободно памяти: 1,1 ГБ
 ------------------------------------------
 [Диск C]
-  Размер диска: 79 ГБ
-  Свободно:     2 ГБ
+  Размер диска: 79,3 ГБ
+  Свободно:     2,3 ГБ
 ------------------------------------------
-[Установленные программы]
+
+[Установленные программы: 41]
+  Среда выполнения Microsoft Edge WebView2 Runtime
   Android Studio
+  Apple Mobile Device Support
+  Apple Software Update
+  Attack Shark Driver v4 3.1.12
+  Bonjour
   CLion 2026.1.2
+  Copilot
+  FFmpeg
   Git
+  GitHub CLI
+  GitHub Desktop
+  Happ - Proxy Utility 2.16.2(546)
+  iot_manager version 0.1.8
+  iTunes
+  Microsoft Build of OpenJDK  21.0.12.1+1 (x64)
+  Microsoft Edge
+  Microsoft OneDrive
+  Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219
+  Microsoft Visual C++ 2013 Redistributable (x64) - 12.0.40664
+  Microsoft Visual C++ 2013 x64 Additional Runtime - 12.0.40664
+  Microsoft Visual C++ 2013 x64 Minimum Runtime - 12.0.40664
+  Microsoft Visual C++ 2015-2022 Redistributable (x64) - 14.44.35211
+  Microsoft Visual C++ 2015-2022 Redistributable (x86) - 14.44.35211
+  Microsoft Visual C++ 2022 X64 Additional Runtime - 14.44.35211
+  Microsoft Visual C++ 2022 X64 Minimum Runtime - 14.44.35211
+  Microsoft Visual C++ 2022 X86 Additional Runtime - 14.44.35211
+  Microsoft Visual C++ 2022 X86 Minimum Runtime - 14.44.35211
+  Microsoft Visual Studio Code (User)
+  Microsoft Windows Application Compatibility Fix Database
+  Node.js
   Notepad++ (64-bit x64)
   pgAdmin 4 version 9.18
   PostgreSQL 18 
-  WinRAR 7.22 (64-разрядная)
-  Microsoft Visual C++ 2013 x64 Additional Runtime - 12.0.40664
-  Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219
-  Microsoft Windows Application Compatibility Fix Database
-  Happ - Proxy Utility 2.16.2(546)
-  Microsoft Visual C++ 2022 X64 Minimum Runtime - 14.44.35211
-  GitHub CLI
-  Microsoft Visual C++ 2013 x64 Minimum Runtime - 12.0.40664
-  Bonjour
-  Apple Mobile Device Support
-  Microsoft Visual C++ 2022 X64 Additional Runtime - 14.44.35211
-  Node.js
-  iot_manager version 0.1.8
   PowerShell 7-x64
-  Microsoft Build of OpenJDK  21.0.12.1+1 (x64)
-  iTunes
-  Copilot
-  Microsoft Edge
-  Среда выполнения Microsoft Edge WebView2 Runtime
-  Microsoft Visual C++ 2013 Redistributable (x64) - 12.0.40664
-  Microsoft Visual C++ 2015-2022 Redistributable (x86) - 14.44.35211
   PowerShell 7.6.6.0-x64
-  Microsoft Visual C++ 2022 X86 Minimum Runtime - 14.44.35211
-  Apple Software Update
-  Microsoft Visual C++ 2022 X86 Additional Runtime - 14.44.35211
-  Microsoft Visual C++ 2015-2022 Redistributable (x64) - 14.44.35211
+  Python 3.14.6
+  RipGrep MSVC
+  Telegram Desktop
+  Windows Defender
+  WinRAR 7.22 (64-разрядная)
+------------------------------------------
+
 ==========================================
+ ПРОВЕРКА БАЗОВОГО ПО ОФИСНОГО РАБОЧЕГО МЕСТА
+==========================================
+[!]  Офисный пакет: Не обнаружен офисный пакет. Для работы с документами .docx/.xlsx рекомендуется установить LibreOffice (бесплатно) или МойОфис/Microsoft 365 по лицензии организации.
+[!]  Браузер (сторонний): Не обнаружен сторонний браузер, есть только встроенный Edge. Если корпоративный стандарт требует отдельный браузер, рекомендуется установить Яндекс Браузер или Firefox.
+    Примечание: Microsoft Edge найден, но это встроенный компонент Windows.
+[!]  Программа для чтения PDF: Не обнаружена программа для чтения PDF. Для работы с документами и печатными формами рекомендуется установить SumatraPDF или Adobe Acrobat Reader.
+[OK] Архиватор: требование выполнено (найдено: WinRAR 7.22 (64-разрядная))
+[OK] Антивирус: требование выполнено (найдено: Windows Defender)
+
+==========================================
+ ПО, НЕ ОТНОСЯЩЕЕСЯ К БАЗОВЫМ ОФИСНЫМ ЗАДАЧАМ
+ (рекомендация к проверке, а не указание к удалению)
+==========================================
+1. Игровое ПО и игровые платформы
+    Не обнаружено.
+2. Торрент-клиенты и файлообмен
+    Не обнаружено.
+3. Мессенджеры для личного общения
+    - Telegram Desktop
+    Рекомендация: Проверьте, входит ли мессенджер в корпоративный стандарт: в части организаций Telegram или Skype - рабочий инструмент.
+4. Развлечения и оформление
+    - iTunes
+    Рекомендация: Программы для развлечений и оформления не нужны для работы. Проверьте необходимость, если в организации есть стандартный плеер.
+
+==========================================
+ ИТОГ
+==========================================
+Проверено категорий базового ПО: 5
+Выдано рекомендаций: 5
+Отчёт сохранён: D:\Учеба\Моделирование\lab-onboarding-Viktorov\client-check\pc_report.txt
+Вывод скрипта - рекомендация администратору. Решение об
+установке или удалении программ принимает человек.
